@@ -57,7 +57,6 @@ trainxgb_initial = xgb_initial$train(task, row_ids = TrainSet)
 
 # print
 print(xgb_initial$model)
-# logloss = 0.579
 
 # get predictions
 predictionxgb_initial = xgb_initial$predict(task, row_ids = TestSet)
