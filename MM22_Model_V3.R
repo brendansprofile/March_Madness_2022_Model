@@ -153,8 +153,6 @@ predictionxgbCV$confusion
 measuresxgb <- msrs(c("classif.acc", "classif.logloss"))
 
 predictionxgbCV$score(measuresxgb)
-  # classif.acc classif.logloss 
-  # 0.8238051       0.5798495 
 
 tablexgbCV <- as.data.table(predictionxgb_initial)
 
